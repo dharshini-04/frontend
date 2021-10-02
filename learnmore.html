@@ -1,0 +1,54 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="header">
+	<nav>
+		<a href="index.html"><img src="image/logo.jpg "></a> 
+		<div class="nav-links" id="navLinks">
+			<i style="font-size:24px" class="fa" onclick="hideMenu()">&#xf00d;</i>
+			<ul>
+				<li><a href="file:///C:/Users/HP/Desktop/conferance/index.html">HOME</a></li>
+				<li><a href="file:///C:/Users/HP/Desktop/conferance/speaker.html">SPEAKER</a></li>
+				<li><a href="file:///C:/Users/HP/Desktop/conferance/shedule.html">SHEDULE</a></li>
+				<li><a href="file:///C:/Users/HP/Desktop/conferance/contact.html"> CONTACT</a></li>
+			</ul>
+		</div>
+		<i style="font-size:24px" class="fa" onclick="showMenu()">&#xf0c9;</i>
+	</nav>
+    </section>
+    <div class="text-box">
+	<h1>About</h1>
+
+    <h4>Medical conferences are incredibly useful for any medical professional. They offer invaluable time to speak with fellow practitioners, as well as showing you new innovations in your field. You will be able to both receive and give advice on your chosen area of expertise. Medical conferences also provide brilliant networking opportunities.These opportunities to grow and improve are vital for improving your work, both for your practice and your patients.</h4>
+    <h1>Mission</h1>
+    <h4>To provide an outstanding medical education that results in an inspired and diverse workforce of physicians and scientists who are leaders in advancing exemplary, equitable, and affordable clinical care; health care system design; and related innovation. To alleviate human suffering and best serve critical health needs of our broadly diverse and increasingly connected nation and world.
+
+Essential to achievement of this mission is an exceptionally talented, passionate, and diverse faculty and student body who engage with one another, their patients, and communities; have high intellectual and emotional intelligence; uphold the highest ethical standards; possess the ability to lead and inspire; embrace differences in service to humanity; are committed to eradicating health care disparities; and are patient-centered, inclusive, and team-oriented.</h4>
+</div>
+
+<div class="footer">
+	<h4>For enquiry</h4>
+	<p>For any enquiry or product demo, please contact:<br>
+	+1 4545 5446 4556 or megamedical@yahoo.com</p>
+</div>
+
+<!-----javascript-------->
+<script>
+	
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right="0";
+	} 
+	function hideMenu(){
+		navLinks.style.right="-200px";
+	} 
+</script>
+
+</html>
+</body>

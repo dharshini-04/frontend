@@ -1,0 +1,72 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section class="header">
+	<nav>
+		<a href="index.html"><img src="image/logo.jpg "></a> 
+		<div class="nav-links">
+			<ul>
+				<li><a href="file:///C:/Users/HP/Desktop/conferance/index.html">HOME</a></li>
+				<li><a href="file:///C:/Users/HP/Desktop/conferance/speaker.html">SPEAKER</a></li>
+				<li><a href="file:///C:/Users/HP/Desktop/conferance/shedule.html">SHEDULE</a></li>
+				<li><a href="file:///C:/Users/HP/Desktop/conferance/contact.html"> CONTACT</a></li>
+			</ul>
+		</div>
+	</nav>
+    </section>
+<center>
+<div class="speaker-box">
+	<h1>Register Now</h1>
+<form method="POST"> 
+ <label for="fname">Name:</label><br> 
+ <input type="text" id="fname" name="fname" required><br><br> 
+ <label for="age">Age:</label><br> 
+ <input type="number" id="age" name="age" min="10" max="25" required><br><br>
+ <label for="gender">Gender:</label><br>
+ <input type="radio" id="male" name="Gender" value="male"> 
+ <label for="male">Male</label>
+ <input type="radio" id="female" name="Gender" value="female"> 
+ <label for="female">Female</label><br><br> 
+ <label for="dob">DOB:</label> 
+ <input type="date" id="dob" name="dob"><br><br> 
+ <label for="mail">Email:</label><br> 
+ <input type="text" id="mail" name="mail" required><br><br> 
+ <label for="course">Select Preffered Course:</label> 
+ <select id="course" name="course"> 
+ <option value="art">Obstetrics and Gynecology</option> 
+ <option value="des">Anotomy</option> 
+ <option value="cul">Physiology</option> 
+ <option value="all">Dermatology</option> 
+ </select><br><br> 
+ <label for="country" >Country:</label>
+<select id="country">
+<option value="country">Select</option>
+<option value="Afghanistan">Afghanistan</option>
+<option value="Albania">Albania</option>
+<option value="Algeria">Algeria</option>
+<option value="Andorra">Andorra</option>
+<option value="Argentina">Argentina</option>
+<option value="Australia">Australia</option>
+<option value="America">America</option>
+<option value="China">china</option>
+<option value="Europe">Europe</option>
+<option value="India">India</option></select><br>
+<br>
+<br><br>
+<center><input type="checkbox" name="agree" id="agree" required><b style="color:black"> I agree the terms and conditions!</b><br><br>
+ <button type="submit" onclick="alert('Submitted Successfully!Check your Email for further details.')">SUBMIT</button> 
+</form> 
+	
+</div>
+
+
+<div class="footer">
+	<h4>For enquiry</h4>
+	<p>For any enquiry or product demo, please contact:<br>
+	+1 4545 5446 4556 or megamedical@yahoo.com</p>
+</div>
+
+</html>
+</body>
